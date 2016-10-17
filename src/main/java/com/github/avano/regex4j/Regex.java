@@ -27,7 +27,7 @@ public final class Regex {
 	}
 
 	/**
-	 * Returns a first substring that matches the regex in specified string. Flag from @{java.util.regex.Pattern} class.
+	 * Returns a first substring that matches the regex in specified string. Flag from {@link java.util.regex.Pattern} class.
 	 * @param text text to search in
 	 * @param regex regex to search for
 	 * @param flag flag from Pattern class.
@@ -54,7 +54,7 @@ public final class Regex {
 	}
 
 	/**
-	 * Returns a list of all the substrings that matches the regex in specified string. Flag from @{java.util.regex.Pattern} class.
+	 * Returns a list of all the substrings that matches the regex in specified string. Flag from {@link java.util.regex.Pattern} class.
 	 * @param text text to search in
 	 * @param regex regex to search for
 	 * @param flag flag from Pattern class.
@@ -82,7 +82,7 @@ public final class Regex {
 	}
 
 	/**
-	 * Checks if the text contains a substring that matches the specified regex.
+	 * Checks if the text contains a substring that matches the specified regex. Flag from {@link java.util.regex.Pattern} class.
 	 * @param text text to search in
 	 * @param substringRegex substring regex to search for
 	 * @param flag flag from Pattern class.
