@@ -26,7 +26,6 @@ public class Regex4jTest {
 
 	@Test
 	public void shouldGetSingleStringCaseInsensitiveTest() {
-		// Case insensitive
 		final String regex = "This";
 		assertEquals("Result", "this", Regex.getSubstring(TEXT, regex, Pattern.CASE_INSENSITIVE));
 	}
@@ -42,7 +41,7 @@ public class Regex4jTest {
 		final String regex = "(\\w+)";
 		assertEquals("Count", 10, Regex.getSubstrings(TEXT, regex, 0).size());
 		final List<String> expected = Arrays.asList(TEXT.replaceAll("\\.", "").split(" "));
-		assertEquals("Substring list", expected, Regex.getSubstrings(TEXT, regex, 0));
+		assertEquals("Substring list", expected, Regex.getSubstrings(TEXT, regex));
 	}
 
 	@Test
